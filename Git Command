@@ -6,12 +6,21 @@ $ git config --global color.ui auto
 CREATE REPOSITORIES
 $ git init [project-name]
 $ git clone [url]
+
+MAKE CHANGES
 $ git status
 $ git diff
 $ git add [file]
 $ git diff --staged
 $ git reset [file]
 $ git commit -m "[descriptive message]"
+
+GROUP CHANGES
+$ git branch
+$ git branch [branch-name]
+$ git checkout [branch-name]
+$ git merge [branch]
+$ git branch -d [branch-name]
 
 
 
