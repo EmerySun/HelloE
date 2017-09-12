@@ -1,0 +1,17 @@
+CONFIGURE TOOLING
+$ git config --global user.name "[name]"
+$ git config --global user.email "[email address]"
+$ git config --global color.ui auto
+
+CREATE REPOSITORIES
+$ git init [project-name]
+$ git clone [url]
+$ git status
+$ git diff
+$ git add [file]
+$ git diff --staged
+$ git reset [file]
+$ git commit -m "[descriptive message]"
+
+
+
